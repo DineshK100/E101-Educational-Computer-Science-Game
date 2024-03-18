@@ -1,6 +1,13 @@
 // This function checks if the instance is colliding with an object, or a tile, at the current
 // position + the given movement values (_move_x and _move_y).
 // The function returns true if a collision was found, or false if a collision was not found.
+
+if (!variable_instance_exists(obj_game_manager, "collision_tilemap")) {
+    // Attempt to initialize or log a warning/error
+    return false; // Early exit to avoid the error, but you need to handle this case appropriately
+}
+
+
 function check_collision(_move_x, _move_y) 
 {
 	// This checks for an object collision at the new position, where the instance is going to move

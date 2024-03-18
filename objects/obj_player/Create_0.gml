@@ -9,3 +9,6 @@ in_knockback = false;
 
 // This is the object that replaces the player once it is defeated.
 defeated_object = obj_player_defeated;
+
+
+
