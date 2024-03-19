@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
@@ -239,6 +239,7 @@
     {"id":{"name":"seq_game_over","path":"sequences/seq_game_over/seq_game_over.yy",},},
     {"id":{"name":"snd_coin_collect_01","path":"sounds/snd_coin_collect_01/snd_coin_collect_01.yy",},},
     {"id":{"name":"obj_player_defeat_transition","path":"objects/obj_player_defeat_transition/obj_player_defeat_transition.yy",},},
+    {"id":{"name":"obj_initialText","path":"objects/obj_initialText/obj_initialText.yy",},},
     {"id":{"name":"obj_block_coins_hit_animtion","path":"objects/obj_block_coins_hit_animtion/obj_block_coins_hit_animtion.yy",},},
     {"id":{"name":"spr_mushroom_group_4","path":"sprites/spr_mushroom_group_4/spr_mushroom_group_4.yy",},},
     {"id":{"name":"snd_enemy_hit","path":"sounds/snd_enemy_hit/snd_enemy_hit.yy",},},
@@ -251,9 +252,9 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"roomId":{"name":"Leveldesign","path":"rooms/Leveldesign/Leveldesign.yy",},},
     {"roomId":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
-    {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
   ],
   "templateType": "game",

@@ -133,6 +133,7 @@
     {"name":"seq_game_over","order":3,"path":"sequences/seq_game_over/seq_game_over.yy",},
     {"name":"snd_coin_collect_01","order":2,"path":"sounds/snd_coin_collect_01/snd_coin_collect_01.yy",},
     {"name":"obj_player_defeat_transition","order":6,"path":"objects/obj_player_defeat_transition/obj_player_defeat_transition.yy",},
+    {"name":"obj_initialText","order":1,"path":"objects/obj_initialText/obj_initialText.yy",},
     {"name":"obj_block_coins_hit_animtion","order":2,"path":"objects/obj_block_coins_hit_animtion/obj_block_coins_hit_animtion.yy",},
     {"name":"spr_mushroom_group_4","order":12,"path":"sprites/spr_mushroom_group_4/spr_mushroom_group_4.yy",},
     {"name":"snd_enemy_hit","order":7,"path":"sounds/snd_enemy_hit/snd_enemy_hit.yy",},
