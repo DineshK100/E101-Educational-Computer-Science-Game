@@ -1,7 +1,6 @@
-// Create Event of obj_textPrompt
-displayText = "Welcome to the Game! Click OK to continue.";
-showText = true; // Initially, show the text
-currentTextIndex = 0; // To manage different messages
+// Create Event
+text = "Welcome to the game! Explore freely and when you're ready click GO!";
+visible = true; // The text is visible initially.
 
 // Array of messages to display
 messages = ["Welcome to the Game! Click OK to continue.",

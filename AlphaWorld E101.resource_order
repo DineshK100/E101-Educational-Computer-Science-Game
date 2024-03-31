@@ -10,6 +10,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_touch_button_right","order":1,"path":"objects/obj_touch_button_right/obj_touch_button_right.yy",},
     {"name":"obj_effect_jump","order":5,"path":"objects/obj_effect_jump/obj_effect_jump.yy",},
+    {"name":"task_1","order":4,"path":"objects/task_1/task_1.yy",},
     {"name":"spr_cloud_small","order":4,"path":"sprites/spr_cloud_small/spr_cloud_small.yy",},
     {"name":"spr_touch_jump","order":2,"path":"sprites/spr_touch_jump/spr_touch_jump.yy",},
     {"name":"Terrain_and_Props","order":4,"path":"sprites/Terrain_and_Props/Terrain_and_Props.yy",},
@@ -35,6 +36,7 @@
     {"name":"obj_effect_walk","order":4,"path":"objects/obj_effect_walk/obj_effect_walk.yy",},
     {"name":"spr_mushroom_group_2","order":10,"path":"sprites/spr_mushroom_group_2/spr_mushroom_group_2.yy",},
     {"name":"spr_hanging_group_3","order":5,"path":"sprites/spr_hanging_group_3/spr_hanging_group_3.yy",},
+    {"name":"obj_gameController","order":3,"path":"objects/obj_gameController/obj_gameController.yy",},
     {"name":"spr_end_gate_glow","order":1,"path":"sprites/spr_end_gate_glow/spr_end_gate_glow.yy",},
     {"name":"obj_button_quit","order":1,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"spr_ground_bottom_moss_right","order":1,"path":"sprites/spr_ground_bottom_moss_right/spr_ground_bottom_moss_right.yy",},

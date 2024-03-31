@@ -104,12 +104,14 @@
     {"name":"inst_1D34DFFB","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_667C1FA0","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_3561D213","path":"rooms/rm_level_1/rm_level_1.yy",},
-    {"name":"inst_3FBDBE1C","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_3EF49BC2","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_65C414B3","path":"rooms/rm_level_1/rm_level_1.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3FBDBE1C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_initialText","path":"objects/obj_initialText/obj_initialText.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3456.0,"y":1216.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3EF49BC2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_gameController","path":"objects/obj_gameController/obj_gameController.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":256.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65C414B3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"task_1","path":"objects/task_1/task_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3456.0,"y":1824.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Editor","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_59436384","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_stop_leaf_effect","path":"objects/obj_stop_leaf_effect/obj_stop_leaf_effect.yy",},"properties":[],"rotation":0.0,"scaleX":29.75,"scaleY":21.0,"x":12528.0,"y":2976.0,},
