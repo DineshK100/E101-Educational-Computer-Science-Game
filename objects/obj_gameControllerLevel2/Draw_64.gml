@@ -8,8 +8,8 @@ draw_set_alpha(0.5); // Set the transparency of the box. Adjust as needed.
 
 // Calculate text width and height for the box size, add a little padding
 var padding = 10;
-var textWidth = string_width(taskTexts[currentTask]) + padding * 2;
-var textHeight = string_height(taskTexts[currentTask]) + padding;
+var textWidth = string_width(taskTexts2[currentTask2]) + padding * 2;
+var textHeight = string_height(taskTexts2[currentTask2]) + padding;
 
 // Draw the box behind the text
 draw_rectangle(10 - padding / 2, 10 - padding / 2, 10 + textWidth, 10 + textHeight, false);
@@ -19,4 +19,4 @@ draw_set_alpha(1); // Reset alpha so the text is not transparent
 draw_set_color(c_black); // Assuming you want the text in black or choose any color
 
 // Draw the text on top of the box
-draw_text(10, 10, taskTexts[currentTask]);
+draw_text(10, 10, taskTexts2[currentTask2]);
