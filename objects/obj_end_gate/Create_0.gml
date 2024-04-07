@@ -1,4 +1,8 @@
-// This creates an instance of obj_end_gate_particles which draws over the end gate itself
+
+
+if (instance_exists(obj_gameController) && obj_gameController.currentTask == Tasks.Completed) {
+   
+    // This creates an instance of obj_end_gate_particles which draws over the end gate itself
 // and displays a particle animation
 // It's created at the same position and on the same layer as the end gate itself
 var _particle_instance = instance_create_layer(x, y, layer, obj_end_gate_particles);
@@ -21,3 +25,5 @@ audio_play_sound_on(emitter, snd_portal_01, true, 1);
 
 // Play a looping portal ambience sound on the emitter
 audio_play_sound_on(emitter, snd_portal_02, true, 1);
+
+}

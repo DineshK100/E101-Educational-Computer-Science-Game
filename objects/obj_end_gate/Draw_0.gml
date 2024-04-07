@@ -1,4 +1,6 @@
-// Before drawing the end gate itself, we want to draw its inside, using the Add blend mode
+
+if (instance_exists(obj_gameController) && obj_gameController.currentTask == Tasks.Completed) {
+	// Before drawing the end gate itself, we want to draw its inside, using the Add blend mode
 // so it appears bright.
 // We're calling the gpu_set_blendmode function to change the blend mode to Add.
 gpu_set_blendmode(bm_add);
@@ -12,3 +14,4 @@ gpu_set_blendmode(bm_normal);
 
 // This draws the end gate instance itself.
 draw_self();
+}
