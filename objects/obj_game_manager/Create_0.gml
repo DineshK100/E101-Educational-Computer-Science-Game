@@ -1,5 +1,5 @@
 // This creates the HUD sequence, which shows all HUD elements (such as coins and hearts). It lasts throughout the level.
-layer_sequence_create("Instances", 0, 0, seq_game_hud);
+//layer_sequence_create("Instances", 0, 0, seq_game_hud);
 collision_tilemap = layer_tilemap_get_id("ts_world");
 collision_tilemap2 = layer_tilemap_get_id("CollisionTiles2");
 // paused: This will be true when the game is paused, and false when it's not
