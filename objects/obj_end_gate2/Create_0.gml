@@ -1,6 +1,6 @@
 
 
-if (instance_exists(obj_gameController) && obj_gameController.currentTask == Tasks.Completed) {
+if (instance_exists(obj_gameControllerLevel2) && obj_gameControllerLevel2.currentTask2 == Tasks2.Completed) {
    
     // This creates an instance of obj_end_gate_particles which draws over the end gate itself
 // and displays a particle animation
